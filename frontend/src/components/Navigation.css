@@ -9,12 +9,10 @@ body, .main_container,nav li a, h1, h2, h3, footer, #mainPageSubTittle, #whiteBo
     letter-spacing: .01rem;
     line-height: 1.75rem;
 }
-/* ul.ba {
-    list-style-type: none;
-} */
 body, #root,#mainPage {
     width: inherit;
     height: inherit;
+    text-align: center;
 }
 .main_container, .fix_block{width: inherit; height: inherit;}
 header 
@@ -83,6 +81,7 @@ header
     display: inline-flex;
     position: relative;
     right: 0px;
+    padding-right:20px;
 
 }
 #name{
@@ -105,10 +104,10 @@ ul {
     height: 100%;
 }
 
-#myImage, #aboutMe {
+/* #myImage, #aboutMe {
     position: relative;
     left: 45%;
-}
+} */
  .bg-border {
     background-color: rgb(176, 214, 6);
  }
@@ -136,14 +135,14 @@ a {
 }
 .page-title {
     position: relative;
-    left: 30%;
+    /* left: 30%; */
     font-size: 3rem;
 }
 
 .heading_two {
     font-size: large;
     position: relative;
-    left: 40%;
+    /* left: 40%; */
 }
 .thirty_seconds_pitch {
     position: relative;
@@ -151,10 +150,8 @@ a {
 }
 
 .fix_block {
-    /* display: inline-flex; */
     text-align: center;
     position: relative;
-    height: inherit;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -176,10 +173,10 @@ h3{
 
 
 
-#projectsHeadings {
+/* #projectsHeadings {
     position: relative;
     left: 45%;
-}
+} */
 
 .projects_image {
     position: relative;
@@ -196,7 +193,6 @@ h3{
 }
 #fix_projects{
     position: relative;
-    /* left: 25%; */
     width: 100%;
     height: inherit;
     display: flex;
@@ -216,52 +212,60 @@ html,body{overflow-x: hidden;}
 
 
 #projectsHeadings {
-    position: relative;
-    left: 45%;
-    }
-    
-    .projects_image {
-    position: relative;
-    left: 0%;
-    margin-right: 0%;
-    width: fit-content;
-    }
-    .peoject-description{
-    position: relative;
-    width: 200px;
-    }
-    .heading_three{
-    font-size: large;
-    }
-    #fix_projects{
-    position: relative;
-    width: 100%;
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    align-items: stretch;
-    }
-    html::-webkit-scrollbar {
-    display: none; 
-    }
-    element::-webkit-scrollbar {
-    display: none; 
-    }
-    html,body{overflow-x: hidden;}
-    
-    #fix_interests {
-    text-align: center;
-    display: block;
-    padding-top: 10%;
-    }
-    #socialNetwork, #socialNetworkUL {
-    display: -webkit-inline-box;
-    text-align: center;
-    padding-top: 15%;
-    }
-    
-    #socialNetwork #socialNetworkUL li{
-    margin-left: 20px;
-    margin-right: 20px;
-    }
+    /* position: relative;
+    left: 45%; */
+}
+
+.projects_image {
+position: relative;
+left: 0%;
+margin-right: 0%;
+width: fit-content;
+}
+.peoject-description{
+position: relative;
+width: 200px;
+}
+.heading_three{
+font-size: large;
+}
+#fix_projects{
+position: relative;
+width: 100%;
+height: inherit;
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: stretch;
+}
+html::-webkit-scrollbar {
+display: none; 
+}
+element::-webkit-scrollbar {
+display: none; 
+}
+html,body{overflow-x: hidden;}
+
+#fix_interests {
+text-align: center;
+display: block;
+padding-top: 10%;
+}
+#socialNetwork, #socialNetworkUL {
+display: -webkit-inline-box;
+text-align: center;
+padding-top: 15%;
+}
+
+#socialNetwork #socialNetworkUL li{
+margin-left: 20px;
+margin-right: 20px;
+}
+
+#address{
+    padding-right: 300px;
+    text-align: left;
+}
+#add{text-align: left;}
+
+#map{width: 1000px; height: 400px;}

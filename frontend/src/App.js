@@ -6,6 +6,7 @@ import Project from './pages/Projects'
 import Resume from './pages/Resume'
 import Home from './pages/Home'
 import Interests from './pages/Interests';
+import Contacts from './pages/Contacts';
 import React, { Component }  from 'react'
 
 function App() {
@@ -17,14 +18,17 @@ function App() {
           <Routes>
             <Route path='/home' exact element={<Home />} />
             <Route path='/projects' element={<Project />} />
-            {/* <Route path='/resume' element={<Resume />} /> */}
+            <Route path='/resume' element={<Resume />} />
             <Route path='/interests' element={<Interests />} />
+            <Route path="/contacts" element={<Contacts />} />
           </Routes>    
         </Router>
-        <Home />
+        {/* <Home /> */}
       </div>
     </body>
   );
 }
 
 export default App;
+
+

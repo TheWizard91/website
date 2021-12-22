@@ -16,11 +16,14 @@ function Navigation () {
                             <li>
                                 <Link to={"/projects"} className="nav-link">Projects</Link>
                             </li>
-                            {/* <li>
+                            <li>
                                 <Link to={"/resume"} className="nav-link">Resume</Link>
-                            </li> */}
+                            </li>
                             <li>
                                 <Link to={"/interests"} className="nav-link">Interests</Link>
+                            </li>
+                            <li>
+                                <Link to={"/contacts"} className="nav-link">Contacts</Link>
                             </li>
                         </ul>
                     </nav>
