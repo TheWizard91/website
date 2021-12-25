@@ -1,8 +1,22 @@
-import React, { Component } from "react";
-import { Wrapper, Status } from "@googlemaps/react-wrapper";
-import MapComponent from "/home/emmanuel/Desktop/my_portfolio/frontend/src/components/MapComponent.js";
+import React, { Component, useState, useEffect } from "react";
+// import { Wrapper, Status } from "@googlemaps/react-wrapper";
+// import MapComponent from "/home/emmanuel/Desktop/my_portfolio/frontend/src/components/MapComponent.js";
+// import React, { Component, useState, useEffect } from "react";
+import MapComponent from "/home/emmanuel/Desktop/my_portfolio/frontend/src/components/MapComponent.js"
+import {
+    withGoogleMap,
+    GoogleMap,
+    Marker,
+    InfoWindow,
+    mapStyles,
+    Map,
+    Wrapper,
+    setMap,
+} from "@googlemaps/react-wrapper";
+const google = window.google;
 
 function Contacts () {
+    // const google = window.google;
 
     return (
         <div id="mainContainer">
@@ -41,8 +55,8 @@ function Contacts () {
                 </div>
                 <div id="map">
                     <div >
-                        <Wrapper apiKey={"AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"}>
-                            <MapComponent/>
+                        <Wrapper apiKey={"AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"} >
+                            <MapComponent />
                         </Wrapper>
                     </div>
                 </div>
