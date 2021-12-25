@@ -42,8 +42,7 @@ function Contacts () {
                 <div id="map">
                     <div >
                         <Wrapper apiKey={"AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"}>
-                            <MapComponent>                   
-                            </MapComponent>
+                            <MapComponent/>
                         </Wrapper>
                     </div>
                 </div>
