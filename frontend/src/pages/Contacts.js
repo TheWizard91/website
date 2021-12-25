@@ -13,7 +13,6 @@ import {
     Wrapper,
     setMap,
 } from "@googlemaps/react-wrapper";
-const google = window.google;
 
 function Contacts () {
     return (
@@ -53,9 +52,9 @@ function Contacts () {
                 </div>
                 <div id="map">
                     <div >
-                        <Wrapper apiKey={"AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"} >
+                        {/* <Wrapper apiKey={"AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"} > */}
                             <MapComponent />
-                        </Wrapper>
+                        {/* </Wrapper> */}
                     </div>
                 </div>
             </main>
