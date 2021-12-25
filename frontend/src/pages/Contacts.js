@@ -16,8 +16,6 @@ import {
 const google = window.google;
 
 function Contacts () {
-    // const google = window.google;
-
     return (
         <div id="mainContainer">
             <main class="main_container">
