@@ -1,4 +1,5 @@
-import React, { Component, useState, useEffect } from "react";
+import React, { Component, useState, useEffect,
+    LoadScript } from "react";
 // import { Wrapper, Status } from "@googlemaps/react-wrapper";
 // import MapComponent from "/home/emmanuel/Desktop/my_portfolio/frontend/src/components/MapComponent.js";
 // import React, { Component, useState, useEffect } from "react";
@@ -14,6 +15,8 @@ import {
     setMap,
 } from "@googlemaps/react-wrapper";
 
+const lib = ["places"];
+const key = "AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_"; // PUT GMAP API KEY HERE
 function Contacts () {
     return (
         <div id="mainContainer">
@@ -52,9 +55,12 @@ function Contacts () {
                 </div>
                 <div id="map">
                     <div >
-                        {/* <Wrapper apiKey={"AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"} > */}
+                        <Wrapper apiKey={"AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"}>
                             <MapComponent />
-                        {/* </Wrapper> */}
+                        </Wrapper>
+                        {/* <LoadScript googleMapsApiKey={key} libraries={lib}>
+                            <MapComponent />
+                        </LoadScript> */}
                     </div>
                 </div>
             </main>

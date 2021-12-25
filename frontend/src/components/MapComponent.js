@@ -8,8 +8,8 @@ import {
     Map,
     Wrapper,
     setMap,
-    createCustomEqual,
-    isLatLngLiteral,
+    createCustomEqual, 
+    isLatLngLiteral
 } from "@googlemaps/react-wrapper";
 
 interface MapProps extends google.maps.MapOptions {
