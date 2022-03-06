@@ -7,7 +7,7 @@ import Resume from './pages/Resume'
 import Home from './pages/Home'
 import Interests from './pages/Interests';
 import Contacts from './pages/Contacts';
-import React, { Component }  from 'react'
+import React, { Component }  from 'react';
 
 function App() {
   return (
@@ -15,8 +15,10 @@ function App() {
       <div id="mainPage">
         <Router>
           <Navigation />
+          {/* <Home /> */}
           <Routes>
-            <Route path='/home' exact element={<Home />} />
+            <Route path='/' exact={true} element={<Home />} />
+            <Route path='/home' exact={true} element={<Home />} />
             <Route path='/projects' element={<Project />} />
             <Route path='/resume' element={<Resume />} />
             <Route path='/interests' element={<Interests />} />

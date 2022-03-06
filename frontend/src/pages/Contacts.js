@@ -1,22 +1,41 @@
 import React, { Component, useState, useEffect,
     LoadScript } from "react";
-// import { Wrapper, Status } from "@googlemaps/react-wrapper";
-// import MapComponent from "/home/emmanuel/Desktop/my_portfolio/frontend/src/components/MapComponent.js";
-// import React, { Component, useState, useEffect } from "react";
+
 import MapComponent from "/home/emmanuel/Desktop/my_portfolio/frontend/src/components/MapComponent.js"
+
 import {
-    withGoogleMap,
-    GoogleMap,
-    Marker,
-    InfoWindow,
-    mapStyles,
-    Map,
-    Wrapper,
-    setMap,
+  withGoogleMap,
+  GoogleMap,
+  Marker,
+  InfoWindow,
+  mapStyles,
+  Map,
+  Wrapper,
+  setMap,
+  createCustomEqual, 
+  isLatLngLiteral,
+  GoogleApiWrapper,
 } from "@googlemaps/react-wrapper";
 
-const lib = ["places"];
-const key = "AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_"; // PUT GMAP API KEY HERE
+let map: google.maps.Map;
+
+const render = (status: Status) => {
+  return <h1>{status}</h1>;
+};
+
+// const MAP_STYLE = {
+//   width: '100%',
+//   height: '100%',
+// };
+
+const MY_HOME_LOCATION = {
+  lat: 40.888149, 
+  lng: -73.859930 
+}
+
+// const lib = ["places"];
+const GOOGLE_MAPS_API_KEY = "AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"; // PUT GMAP API KEY HERE
+
 function Contacts () {
     return (
         <div id="mainContainer">
@@ -39,30 +58,11 @@ function Contacts () {
                                 </address>
                             </td>
                         </tr>
-                        <tr id="contactList">
-                            <td id="add">
-                                <p>
-                                    Bronx, New York 10466
-                                </p>
-                            </td>
-                            <td id="phoneNumber">
-                                <address>
-                                    <b>TEL:</b> +1 (929)303-8986
-                                </address>
-                            </td>
-                        </tr>
                     </table>
                 </div>
-                <div id="map">
-                    <div >
-                        <Wrapper apiKey={"AIzaSyALnWsyf1IDj5fCl7qGFI3Sx_-3JYOT9xA"}>
-                            <MapComponent />
-                        </Wrapper>
-                        {/* <LoadScript googleMapsApiKey={key} libraries={lib}>
-                            <MapComponent />
-                        </LoadScript> */}
-                    </div>
-                </div>
+                <Wrapper apiKey = { GOOGLE_MAPS_API_KEY } id="m">
+                    <MapComponent />
+                </Wrapper>
             </main>
         </div>
     );
