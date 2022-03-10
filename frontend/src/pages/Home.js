@@ -1,7 +1,7 @@
 import React from "react";
 // import 'semantic-ui-css/semantic.min.css'
 const logo=require("/home/emmanuel/Desktop/my_portfolio/frontend/src/images/IMG_9342.JPG") 
-const Home = () => {
+const Home () {
     return (
         <div calss="main_container" id="mainContainer">
             <div class="container" id="home">
