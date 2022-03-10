@@ -16,7 +16,7 @@ function App() {
         {/* <Home /> */}
         <Router>
           <Navigation />
-          <Home />
+          {/* <Home /> */}
           <Routes>
             <Route path='/' exact={true} element={<Home />} />
             <Route path='/home' exact={true} element={<Home />} />
