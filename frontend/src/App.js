@@ -13,10 +13,8 @@ function App() {
   return (
     <body calss="body">
       <div id="mainPage">
-        {/* <Home /> */}
         <Router>
           <Navigation />
-          {/* <Home /> */}
           <Routes>
             <Route path='/' exact={true} element={<Home />} />
             <Route path='/home' exact={true} element={<Home />} />
