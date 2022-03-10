@@ -13,6 +13,7 @@ function App() {
   return (
     <body calss="body">
       <div id="mainPage">
+        {/* <Home /> */}
         <Router>
           <Navigation />
           <Home />
