@@ -23,10 +23,10 @@ const render = (status: Status) => {
   return <h1>{status}</h1>;
 };
 
-const MAP_STYLE = {
-  width: '100%',
-  height: '100%',
-};
+// const MAP_STYLE = {
+//   width: '100%',
+//   height: '100%',
+// };
 
 const MY_HOME_LOCATION = {
   lat: 40.888149, 
