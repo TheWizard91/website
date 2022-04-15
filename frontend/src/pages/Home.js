@@ -1,4 +1,5 @@
 import React from "react";
+import { Card, Icon, Image } from 'semantic-ui-react'
 // import 'semantic-ui-css/semantic.min.css'
 const logo=require("/home/emmanuel/Desktop/my_portfolio/frontend/src/images/IMG_9342.JPG") 
 function Home () {
@@ -15,12 +16,12 @@ function Home () {
                     <div class="fix_block">
                         <div class="thirty_seconds_pitch">
                             <h3 id="aboutMe">About Me</h3>
-                            <p>Hello, I am Emmanuel Kofi Agyapong, a pleasure to meet you! 
+                            <p class="meduim_size_font">Hello, I am Emmanuel Kofi Agyapong, a pleasure to meet you! 
                                 I am very passionate about web development, mobile development, and testing development. 
                                 I have many side projects in my GitHub repositories in addition to school projects.
                             </p>
-                            <p> 
-                                By the way, I will be graduating in Spring 202 at Lehman H. College of CUNY with a 3.69 GPA. 
+                            <p class="meduim_size_font"> 
+                                By the way, I will be graduating in Spring 2022 at Lehman H. College of CUNY with a 3.69 GPA. 
                                 Here are some of the front-end and back-end technologies that I am proficient with:
                                 For future opportunities, please feel free to contact me.
                             </p>
@@ -28,13 +29,13 @@ function Home () {
                         <div class="social_network">
                             <h3 id="contact">Contact</h3>
                             <ul class="contact_list">
-                                <li><a href="https://www.linkedin.com/in/emmanuel-kofi-agyapong-783807bb/" target="_blank">LinkedIn</a></li>
-                                <li><a href="https://www.facebook.com/emmanuel.agyapong.376" target="_blank">Facebook</a></li>
-                                <li><a href="https://github.com/TheWizard91" target="_blank">Github</a></li>
-                                <li><a href="https://twitter.com/agiapong" target="_blank">Twitter</a></li>
+                                <li><a href="https://www.linkedin.com/in/emmanuel-kofi-agyapong-783807bb/" target="_blank"><Icon name='linkedin' size="big" /></a></li>
+                                <li><a href="https://www.facebook.com/emmanuel.agyapong.376" target="_blank"><Icon name='facebook' size="big" /></a></li>
+                                <li><a href="https://github.com/TheWizard91" target="_blank"><Icon name='github' size="big" /></a></li>
+                                <li><a href="https://twitter.com/agiapong" target="_blank"><Icon name='twitter' size="big" /></a></li>
                                 {/* <li><a href="https://www.instagram.com/emmanuelagyapong_/" target="_blank">Instagram</a></li>
                                 <li><a href="https://www.flickr.com/photos/183785405@N04/" target="_blank">Flirk</a></li> */}
-                                <li><a href="https://codesandbox.io/dashboard/home?workspace=b5040796-7ad1-413f-a834-21d637e88ff5" target="_blank">CodeSandbox</a></li>
+                                <li><a href="https://codesandbox.io/dashboard/home?workspace=b5040796-7ad1-413f-a834-21d637e88ff5" target="_blank"><Icon name='code' size="big" /></a></li>
                             </ul>
                         </div>
                     </div>
