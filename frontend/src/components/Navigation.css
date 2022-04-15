@@ -15,7 +15,7 @@ body, #root,#mainPage {
     text-align: center;
 }
 .main_container, .fix_block{width: inherit; height: inherit;}
-header 
+#navHeader 
 {
     display: inline-flex;
     margin-top: auto;
@@ -244,7 +244,7 @@ display: none;
 element::-webkit-scrollbar {
 display: none; 
 }
-html,body{overflow-x: hidden;}
+/* html,body{overflow-x: hidden;} */
 
 #fix_interests {
 text-align: center;
@@ -269,3 +269,26 @@ margin-right: 20px;
 #add{text-align: left;}
 
 #map{width: 400px; height: 400px;}
+/* 
+#projectContainer{
+    width: 50%;
+  }
+#projectsHeadings {
+    text-align: center;
+    display: -webkit-inline-box;
+  }
+#card {
+    display: inline-flex;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+  }
+  
+#description{
+    padding-left: 20px;
+  } */
+
+  .meduim_size_font {
+    font-size: 1.2em;
+    letter-spacing: 0.05em;
+    line-height: 2em;
+  }

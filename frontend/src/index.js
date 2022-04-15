@@ -9,6 +9,7 @@ ReactDOM.render(
   
     <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="{% static 'javaScript/jquery-3.3.1.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
 
     <App />
   </React.StrictMode>,
