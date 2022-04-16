@@ -8,7 +8,7 @@ function Home () {
             <div class="container" id="home">
                 <img class="border bg-white p1 border-gray circle square-100 lazyload" id="myImage"src={logo} style={{width: 150, height: 150, borderRadius: 400/ 2}} />
                 <h1 class="page-title mt0 mb1">Emmanuel Kofi Agyapong</h1>
-                <h2 class="heading_two">Student at <a href="https://www.credly.com/badges/3a3dfcd6-ea00-4ee3-9403-c3f4ea3f9594" target="_blank"> 
+                <h2 class="heading_two">Student at <a href="https://www.credly.com/users/emmanuel-agyapong.f4754345/badges" target="_blank"> 
                         Lehman H. College(CUNY).
                     </a>
                 </h2>
