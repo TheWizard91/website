@@ -38,7 +38,7 @@ const ProjectCardView = () => (
       <img class="border bg-white p1 border-gray circle square-100 lazyload" 
                         id="projectImage"src={logo} /> {/**style={{width: 500, height: 300, borderRadius: 10}} */}
         <Card.Content id="cardContent">
-          <Card.Header id="projectsHeadings"><h3>ProjoectOne</h3></Card.Header>
+          <Card.Header id="projectsHeadings"><h3>ProjoectTwo</h3></Card.Header>
           <Card.Meta>
             <span className='date'>03-31-2022</span>
           </Card.Meta>
