@@ -1,0 +1,35 @@
+#projectsHeading {
+    position: relative;
+    left: 40%;
+}
+#projectContainer{
+    width: 50%;
+  }
+#projectsHeadings {
+    text-align: center;
+    display: -webkit-inline-box;
+  }
+#card {
+    width: -webkit-fill-available;
+    display: inline-flex;
+    padding: 1% 1% 1% 1%;
+    margin: 1% 1% 1% 1%;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
+/* #projectImage{} */
+#description{
+    padding-left: 20px;
+  }
+#projectImage{
+  width: 35%; 
+  height: 300px;
+  border: none;
+}
+#cardContent{
+  border:none;
+}
+
+#code_link {padding-top:100px;}
+.extra ::content{padding-top: 100px;}
