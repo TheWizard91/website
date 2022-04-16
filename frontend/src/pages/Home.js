@@ -29,7 +29,7 @@ function Home () {
                         <div class="social_network">
                             <h3 id="contact">Contact</h3>
                             <ul class="contact_list">
-                                <li><a href="https://www.linkedin.com/in/emmanuel-kofi-agyapong-783807bb/" target="_blank"><Icon name='linkedin' size="big" /></a></li> */}
+                                <li><a href="https://www.linkedin.com/in/emmanuel-kofi-agyapong-783807bb/" target="_blank"><Icon name='linkedin' size="big" /></a></li>
                                 <li><a href="https://www.facebook.com/emmanuel.agyapong.376" target="_blank"><Icon name='facebook' size="big" /></a></li>
                                 <li><a href="https://github.com/TheWizard91" target="_blank"><Icon name='github' size="big" /></a></li>
                                 <li><a href="https://twitter.com/agiapong" target="_blank"><Icon name='twitter' size="big" /></a></li>
