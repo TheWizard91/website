@@ -33,8 +33,6 @@ function Home () {
                                 <li><a href="https://www.facebook.com/emmanuel.agyapong.376" target="_blank"><Icon name='facebook' size="big" /></a></li>
                                 <li><a href="https://github.com/TheWizard91" target="_blank"><Icon name='github' size="big" /></a></li>
                                 <li><a href="https://twitter.com/agiapong" target="_blank"><Icon name='twitter' size="big" /></a></li>
-                                {/* <li><a href="https://www.instagram.com/emmanuelagyapong_/" target="_blank">Instagram</a></li>
-                                <li><a href="https://www.flickr.com/photos/183785405@N04/" target="_blank">Flirk</a></li> */}
                                 <li><a href="https://codesandbox.io/dashboard/home?workspace=b5040796-7ad1-413f-a834-21d637e88ff5" target="_blank"><Icon name='code' size="big" /></a></li>
                             </ul>
                         </div>
