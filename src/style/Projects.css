@@ -12,7 +12,6 @@
 #card {
     width: -webkit-fill-available;
     display: inline-flex;
-    /* height: 300px; */
     padding: 1% 1% 1% 1%;
     margin: 1% 1% 1% 1%;
     flex-direction: row;
@@ -27,11 +26,9 @@
   width: 35%; 
   height: 300px;
   border: none;
-  /* border-bottom: 4px solid #e6e6e6; */
 }
 #cardContent{
   border:none;
-  /* background-color: #e6e6e6; */
 }
 
 #code_link {padding-top:100px;}
