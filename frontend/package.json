@@ -1,6 +1,6 @@
 {
-  "homepage": "https://thewizard91.github.io/",
-  "name": "fronend",
+  "homepage": "https://thewizard91.github.io/website/frontend/public/index.html",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
