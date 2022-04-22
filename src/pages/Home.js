@@ -2,6 +2,20 @@ import React from "react";
 import { Card, Icon, Image } from 'semantic-ui-react'
 // import 'semantic-ui-css/semantic.min.css'
 const logo=require("/home/emmanuel/Desktop/my_portfolio/frontend/src/images/IMG_9342.JPG") 
+
+// const path = require('path');
+// const express = require('express');
+// const app = express();
+// const port = process.env.PORT || 3000;
+// const publicPath = path.join(__dirname, '..', 'public');
+// app.use(express.static(publicPath));
+// app.get('*', (req, res) => {
+//     res.sendFile(path.join(publicPath, 'index.html'));
+//  });
+ 
+// app.listen(port, () => {
+//     console.log(`Server is up on port ${port}!`);
+//  });
 function Home () {
     return (
         <div calss="main_container" id="mainContainer">
