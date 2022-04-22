@@ -45,8 +45,9 @@ const DesignPadProjectCardView = () => (
             <span className='date'>03-31-2022</span>
           </Card.Meta>
           <Card.Description id="description">
-            <p class="meduim_size_font">We have 8 pads contaninig colors on the left. When you pick a pad on the left, and drag it to any pad on the right you change 
-                its color according to the pad that you place upon it after draging. 
+            <p class="meduim_size_font">
+              We have 8 pads contaninig colors on the left. When you pick a pad on the left, and drag it to any pad on the right you change 
+              its color according to the pad that you place upon it after draging. 
             </p>
           </Card.Description>
           <Card.Content extra id="code_link">
@@ -99,15 +100,16 @@ const ArtificailIntelligenceProjectCardView = () => (
             <span className='date'>03-31-2022</span>
           </Card.Meta>
           <Card.Description id="description">
-            <p class="meduim_size_font">Thoroughly analyzed data from here and found the mean, median, variance, and standard deviation using Python. 
-            In addition to that, I made predictions, built models, and tested them for the dataset at hand. 
-            So started analyzing the data by checking the data type of each input variable is right, and if not, correct them. 
-            Then, I checked for any missing values, meaning getting rid of the empty spaces (the NaN values). 
-            After cleaning the data, I made graphs to gain more insight. 
-            Finally, I used the one-hot-encoding to improve the prediction and classification of my analysis, split and tested the data to get more understanding and started training them for the models. 
-            These are the models used in this project: Logistic project Regression, Support Vector Machine, K Nearest Neighbors, Decision Trees, Random Forests. 
-            And finally, choose the best model by analyzing the accuracy, precision, recall, and F-1 score. 
-            However, the goal of this project was to find out which types of customers are less likely to end the service.
+            <p class="meduim_size_font">
+              Thoroughly analyzed data from here and found the mean, median, variance, and standard deviation using Python. 
+              In addition to that, I made predictions, built models, and tested them for the dataset at hand. 
+              So started analyzing the data by checking the data type of each input variable is right, and if not, correct them. 
+              Then, I checked for any missing values, meaning getting rid of the empty spaces (the NaN values). 
+              After cleaning the data, I made graphs to gain more insight. 
+              Finally, I used the one-hot-encoding to improve the prediction and classification of my analysis, split and tested the data to get more understanding and started training them for the models. 
+              These are the models used in this project: Logistic project Regression, Support Vector Machine, K Nearest Neighbors, Decision Trees, Random Forests. 
+              And finally, choose the best model by analyzing the accuracy, precision, recall, and F-1 score. 
+              However, the goal of this project was to find out which types of customers are less likely to end the service.
             </p>
           </Card.Description>
           <Card.Content extra id="code_link">
