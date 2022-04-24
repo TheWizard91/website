@@ -67,7 +67,7 @@ const StatisticalInferenceProjectCardView = () => (
     <img class="border bg-white p1 border-gray circle square-100 lazyload" 
                       id="projectImage"src={StatisticalInferenceLogo} /> {/**style={{width: 500, height: 300, borderRadius: 10}} */}
       <Card.Content id="cardContent">
-        <Card.Header id="projectsHeadings"><h3>Statisiical Inference Project</h3></Card.Header>
+        <Card.Header id="projectsHeadings"><h3>Statistical Inference Project</h3></Card.Header>
         <Card.Meta>
           <span className='date'>03-31-2022</span>
         </Card.Meta>
